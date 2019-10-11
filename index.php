@@ -94,7 +94,7 @@
 
 				<div class="col-md-5 col-12 mb-3">
 					<!-- email start -->
-					<label for="lastname">Email
+					<label for="email">Email
 						<svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><div class="visually-hidden">required</div>
 					</label>
 					<input type="text" class="form-control <?= !empty($email) ? add_invalid_class(email_validation($email)) : '' ?>" id="email" name="email" placeholder="entre your email" value="<?=$email ?? ''?>" required>

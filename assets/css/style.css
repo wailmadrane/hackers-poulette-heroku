@@ -1,0 +1,97 @@
+/* fonts */
+@font-face {
+  font-family: "bellota";
+  src: url("../polices/Bellota-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bellota';
+  src: url("../polices/Bellota-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bellota';
+  src: url("../polices/Bellota-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'bellota';
+  src: url("../polices/Bellota-Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'bellota';
+  src: url("../polices/Bellota-Light.otf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bellota';
+  src: url("../polices/Bellota-LightItalic.otf");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/* variables */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+}
+
+svg#definition {
+  display: none;
+}
+
+.icon {
+  width: 0.45em;
+  height: 0.45em;
+  fill: crimson;
+  vertical-align: text-top;
+}
+
+/* ### global ###"*/
+body {
+  font-family: "bellota", sans-serif;
+  font-weight: bold;
+  color: #303030;
+  background-image: url("https://zupimages.net/up/19/41/a1x3.png");
+  background-color: #15C5BD !important;
+}
+
+main {
+  max-width: 800px !important;
+  background-color: #fff !important;
+  border-radius: 4px;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: #15C5BD;
+  border-color: #15C5BD;
+}
+
+.btn:hover {
+  background-color: #109791;
+}
+
+.btn:active {
+  background-color: #303030 !important;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  content: '';
+  background-color: #15C5BD !important;
+}
+/*# sourceMappingURL=style.css.map */

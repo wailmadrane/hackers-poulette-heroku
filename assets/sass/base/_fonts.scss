@@ -1,0 +1,50 @@
+/* fonts */
+
+// :::: bellota ::::
+// regular
+@font-face {
+   font-family: "bellota";
+   src: url("../polices/Bellota-Regular.otf");
+   font-weight: normal;
+   font-style: normal;
+}
+
+// bold 
+@font-face {
+   font-family: 'bellota';
+   src: url('../polices/Bellota-Bold.otf');
+   font-weight: bold;
+   font-style: normal;
+}
+
+// bold italic
+@font-face {
+   font-family: 'bellota';
+   src: url('../polices/Bellota-BoldItalic.otf');
+   font-weight: bold;
+   font-style: italic;
+}
+
+// italic
+@font-face {
+   font-family: 'bellota';
+   src: url('../polices/Bellota-Italic.otf');
+   font-weight: normal;
+   font-style: italic;
+}
+
+// lighter
+@font-face {
+   font-family: 'bellota';
+   src: url('../polices/Bellota-Light.otf');
+   font-weight: lighter;
+   font-style: normal;
+}
+
+// lighter italic
+@font-face {
+   font-family: 'bellota';
+   src: url('../polices/Bellota-LightItalic.otf');
+   font-weight: lighter;
+   font-style: italic;
+}

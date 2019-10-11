@@ -1,0 +1,36 @@
+/* ### global ###"*/
+
+body {
+   font-family: $main-font;
+   font-weight: bold;
+   color: $second-color;
+   background-image: url('https://zupimages.net/up/19/41/a1x3.png');
+   background-color: $main-color!important;
+}
+
+main {
+   max-width: 800px!important;
+   background-color: #fff!important;
+   border-radius: 4px;
+}
+
+.btn {
+   font-weight: bold;
+   background-color: $main-color;
+   border-color: $main-color;
+
+   &:hover {
+      background-color: darken( $main-color, 10% );
+      // lighten( $base-color, 10% );
+   }
+   &:active {
+      background-color: $second-color!important;
+   }
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label{
+   &::before {
+      content: '';
+      background-color: $main-color!important;
+   }
+}
